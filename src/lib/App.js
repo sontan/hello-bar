@@ -246,7 +246,7 @@ class App {
     if (document.querySelector(".hello-bar .hello-bar-text--after"))
       document.querySelector(
         ".hello-bar .hello-bar-text--after"
-      ).style.background = `linear-gradient(to right, rgba(0, 0, 0, 0), ${backgroundColor})`;
+      ).style.background = `linear-gradient(to right, rgba(255, 255, 255, 0), ${backgroundColor})`;
     this.bar.style.color = textColor;
     this.bar.style.textAlign = this.settings.align || "center";
     if (document.querySelector(".hello-bar p.hello-bar-text .cta")) {
